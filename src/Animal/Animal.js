@@ -1,9 +1,9 @@
-import { animals } from '../data.js';
+
 
 export default function AnimalCard({ name, type, says }) {
   return (
     <div>
-      <img />
+      <img src={`/animals/${type}.png`} />
       <p>{name}</p>
       <p>{says}</p>
     </div>
