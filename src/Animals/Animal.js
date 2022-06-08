@@ -1,6 +1,6 @@
+import React from 'react';
 
-
-export default function AnimalCard({ name, type, says }) {
+export default function Animal({ name, type, says }) {
   return (
     <div>
       <img src={`/animals/${type}.png`} />
